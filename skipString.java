@@ -6,7 +6,7 @@ public class skipString {
         if(up.isEmpty()){
             return "";
         }
-        char ch= up.charAt(0);
+        
         if(up.startsWith("apple")){
             return skip(up.substring(5));
         }else {
